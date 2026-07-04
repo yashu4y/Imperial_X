@@ -7,13 +7,13 @@ import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Send, Image as ImageIcon, Sparkles, User, Bot, Loader2, Trash2, History, X, RefreshCw, Edit3, Mic, MicOff, Plus, Upload, HardDrive, Image as PhotoIcon, Menu, Folder, Gem, MessageSquare, CreditCard, Users, CheckCircle2, Gift, ExternalLink, Copy, Wallet, Bitcoin, ShieldCheck, ArrowLeft, QrCode, LogOut, ShieldAlert, Volume2 } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import { chatWithGemini, generateImage } from './services/geminiService';
+import { chatWithGemini, generateImage } from './src/services/geminiService';
 import { clsx, type ClassValue } from 'clsx';
 import { twMerge } from 'tailwind-merge';
-import ImageEditor from './components/ImageEditor';
-import SubscriptionModal from './components/SubscriptionModal';
-import AuthScreen from './components/AuthScreen';
-import AdminPanel from './components/AdminPanel';
+import ImageEditor from './src/components/ImageEditor';
+import SubscriptionModal from './src/components/SubscriptionModal';
+import AuthScreen from './src/components/AuthScreen';
+import AdminPanel from './src/components/AdminPanel';
 import { Message, ImageHistoryItem, User as AppUser, PlanType, SystemConfig } from './types';
 
 function cn(...inputs: ClassValue[]) {

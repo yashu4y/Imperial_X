@@ -5,7 +5,7 @@ import {
   Search, ArrowLeft, Shield, Sparkles, UserPlus, Coins, MessageSquare, 
   Settings, CheckCircle2, AlertCircle, Volume2, Save, FileSpreadsheet
 } from 'lucide-react';
-import { User, PlanType, SystemConfig } from '../types';
+import { User, PlanType, SystemConfig } from '../../types';
 
 interface AdminPanelProps {
   currentUser: User;

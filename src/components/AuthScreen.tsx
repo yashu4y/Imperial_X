@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { Sparkles, Mail, Lock, User as UserIcon, ShieldAlert, ArrowRight, Eye, EyeOff, AlertCircle } from 'lucide-react';
-import { User, PlanType } from '../types';
+import { User, PlanType } from '../../types';
 
 interface AuthScreenProps {
   onLoginSuccess: (user: User) => void;
