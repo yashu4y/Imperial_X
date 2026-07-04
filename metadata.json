@@ -1,0 +1,7 @@
+{
+  "name": "Kairo AI",
+  "description": "A versatile AI playground for chat, image generation, and creative exploration powered by Kairo AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,13 @@
+# Vercel build ignores
+# (We only ship the build output)
+node_modules
+src
+public
+.git
+.gitignore
+.vscode
+.env*
+metadata.json
+README.md
+TODO.md
+
